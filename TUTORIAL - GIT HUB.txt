@@ -3,7 +3,7 @@ GIT INIT 	(se hace una sola vez para que sea un repositorio).
 
 GIT ADD . 	(ponemos en estado de preparación todos los archivos).
 
-GIT COMMIT -M "Mi primer commit" 	(pasan al repositorio).
+GIT COMMIT -M "Mi primer commit" 	(pasar al repositorio local).
 
 GIT REMOTE ADD ORIGIN "URL" 	(con esto subimos todo al git hub, la URL la sacamos de la cuenta del git hub). (así en realidad lo que hacemos es sincronizarlo).
 
@@ -19,3 +19,5 @@ git config --global user.name "nuevo nombre"
 git config --global user.email "nuevo correo"
 
 ---------------------------------------------------
+
+git diff (comparar diferencias)
